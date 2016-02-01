@@ -1,0 +1,30 @@
+{
+  "name": "circlecli",
+  "version": "1.0.0",
+  "description": "CLI for CircleCI",
+  "bin": {
+    "circlecli": "circlecli.js"
+  },
+  "scripts": {
+    "start": "node cli.js",
+    "test": "$(npm bin)/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takayukioda/circlecli.git"
+  },
+  "author": "takayukioda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/takayukioda/circlecli/issues"
+  },
+  "homepage": "https://github.com/takayukioda/circlecli#readme",
+  "dependencies": {
+    "request": "^2.69.0",
+    "yargs": "^3.32.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
